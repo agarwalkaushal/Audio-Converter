@@ -6,11 +6,10 @@ Set path to environmental variables or set path of FFmpeg's binary explicitly.<b
 pydub.AudioSegment.converter = r"C:\\path\\to\\ffmpeg.exe"
 ````
 <br />
-In <b><i>file-flac.py</b></i>, replace format="mp3" with any other FFmpeg supported format. Also, get chunks of .raw files for audio processing using <b><i>file-raw.py</b></i>
+In <b><i>file-flac.py</b></i>, replace format="mp3" with any other FFmpeg supported format. Also, get chunks of .raw files for audio processing using <b><i>file-raw.py</b></i>.
 
-<br /><br />
-Don't wish to use python, work directly from command line.
 <br />
+Don't wish to use python, work directly from command line.
 <br />
 ````
 cmd> ffmpeg -i input.mp3 output.flac
