@@ -12,6 +12,3 @@ file_name = os.path.join(
 sound = AudioSegment.from_file(file_name, format="mp3")
 
 sound.export("output.flac",format="flac")
-
-#If you wish to convert to single channel, download ffmpeg from https://ffmpeg.zeranoe.com/builds/ and add to path
-#cmd> ffmpeg -i output.flac -ac 1 mono.flac
