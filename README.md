@@ -17,7 +17,7 @@ cmd> ffmpeg -i input.mp3 output.flac
 ```` 
 
 <br />
-Convert stereo to mono,
+For transcribing large audio files, Google's speech-to-text requires audio with FLAC extention & mono channel,
 <br />
 
 
